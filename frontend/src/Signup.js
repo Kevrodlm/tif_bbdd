@@ -81,7 +81,7 @@ function Signup() {
 
                     <div className='mb-3'>
                         <label htmlFor="email"><strong>Correo</strong></label>
-                        <input type="email" placeholder='Ingresa tu Correo' name='email' onChange={handleInput} className='form-control rounded-0'/>
+                        <input type="text" placeholder='Ingresa tu Correo' name='email' onChange={handleInput} className='form-control rounded-0'/>
                         {errors.email && <span className='text-danger'>{errors.email}</span>}
                     </div>
                     <div className='mb-3'>

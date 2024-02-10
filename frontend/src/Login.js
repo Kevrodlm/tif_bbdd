@@ -34,7 +34,7 @@ function Login(){
                 <form action="" onSubmit={handleSubmit}>
                     <div className='mb-3'>
                         <label htmlFor="email"><strong>Correo</strong></label>
-                        <input typer="email" placeholder='Ingresa tu Correo' name='email' onChange={handleInput} className='form-control rounded-0'/>
+                        <input typer="text" placeholder='Ingresa tu Correo' name='email' onChange={handleInput} className='form-control rounded-0'/>
                         {errors.email && <span className='text-danger'>{errors.email}</span>}
                     </div>
                     <div className='mb-3'>
