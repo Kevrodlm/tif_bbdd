@@ -91,7 +91,7 @@ function Signup() {
                     </div>
                     <button type='submit' className='btn btn-success w-100 rounded-0'><strong>Registrarte</strong></button>
                     <p>Te recomendamos leer nuestra política de privacidad</p>
-                    <Link to="/" className='btn btn-default border w-100 bg-light rounded-0 text decoration-none'>¿Ya tienes una cuenta? Logeate</Link>
+                    <Link to="/login" className='btn btn-default border w-100 bg-light rounded-0 text decoration-none'>¿Ya tienes una cuenta? Logeate</Link>
                 </form>
             </div>
         </div>
